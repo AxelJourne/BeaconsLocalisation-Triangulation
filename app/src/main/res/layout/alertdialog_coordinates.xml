@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/xTextAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:text="X : " />
+    <TextView
+        android:id="@+id/yTextAlert"
+        android:layout_below="@id/xTextAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:text="Y : "/>
+    <TextView
+        android:id="@+id/zTextAlert"
+        android:layout_below="@id/yTextAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5sp"
+        android:text="Z : " />
+    <EditText
+        android:id="@+id/xAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/xTextAlert"
+        android:paddingTop="0sp"
+        android:paddingBottom="3sp"
+        android:layout_alignBottom="@id/xTextAlert"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/yAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/yTextAlert"
+        android:paddingTop="0sp"
+        android:paddingBottom="3sp"
+        android:layout_alignBottom="@id/yTextAlert"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/zAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/zTextAlert"
+        android:paddingTop="0sp"
+        android:paddingBottom="3sp"
+        android:layout_alignBottom="@id/zTextAlert"
+        android:inputType="numberDecimal"/>
+</RelativeLayout>
